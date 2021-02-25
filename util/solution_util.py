@@ -40,7 +40,7 @@ class RealMemory:
         else:self.initialize_empty_memory(memory_size)
         self.memory_size = memory_size
         self.memory_access_seq = MemorySeq(debug=True)
-        #self.memory_access_seq = MemorySeq()
+        self.memory_access_seq = MemorySeq()
         
     def initialize_memory(self, memory_size: int, block_list: List[int]):
         self._inner_memory = []
