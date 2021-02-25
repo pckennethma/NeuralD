@@ -1,0 +1,15 @@
+{
+    "candidate_solution_file": "candidate/TRNGHierarchical.py",
+    "candidate_solution_module": "candidate.TRNGHierarchical",
+    "candidate_solution_lib_files": ["solution_util.py"],
+    "instrumentation_white_list": {
+    },
+    "vm_args": {"size": 8},
+    "random_generator": "default",
+    "random_generator_args": {"size": 8, "length": 6},
+    "random_input_pool_size": 15,
+    "maximal_trail_num": 20,
+    "file_path": "temp",
+    "train_num": 10000,
+    "init_val_num": 5000
+}

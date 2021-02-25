@@ -1,0 +1,15 @@
+{
+    "train_file": "train.txt",
+    "val_file": "val.txt",
+    "model_path":"/data/model.bin",
+    "model_arch": "CNN",
+    "phase": "train",
+    "batch_size": 256,
+    "model_args": {
+        "emb_dim": 32,
+        "epoch_num": 10,
+        "n_filters": 128
+    },
+    "field_path": "/data/",
+    "output_path": "result.txt"
+}

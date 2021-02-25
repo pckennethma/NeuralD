@@ -1,0 +1,10 @@
+{
+    "candidate_solution_file": "candidate/BuggyPathORAM/PORAMRun",
+    "random_generator": "default",
+    "random_generator_args": {"size": 4, "length": 6},
+    "random_input_pool_size": 50,
+    "maximal_trail_num": 20,
+    "file_path": "temp",
+    "train_num": 10000,
+    "init_val_num": 1000
+}

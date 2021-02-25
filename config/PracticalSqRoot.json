@@ -1,0 +1,16 @@
+{
+    "candidate_solution_file": "candidate/PracticalSqRoot.py",
+    "candidate_solution_module": "candidate.PracticalSqRoot",
+    "candidate_solution_lib_files": ["solution_util.py"],
+    "instrumentation_white_list": {
+        "FunctionDef": ["ConstructRandomOracle"]
+    },
+    "vm_args": {"size": 4},
+    "random_generator": "default",
+    "random_generator_args": {"size": 4, "length": 6},
+    "random_input_pool_size": 500,
+    "maximal_trail_num": 20,
+    "file_path": "temp",
+    "train_num": 10000,
+    "init_val_num": 1000
+}
