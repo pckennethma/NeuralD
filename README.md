@@ -6,7 +6,7 @@ Please build Docker images in distinguisher/Neural/Dockerfile before execute the
 
 ## Testing Solution
 
-Run python fuzzer.py config/BuggySqRoot.py to test a particular solution.
+Run python tester.py config/BuggySqRoot.py to test a particular solution.
 
 ## Debug
 
