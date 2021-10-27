@@ -34,7 +34,7 @@ CNN(
   (fc): Linear(in_features=384, out_features=2, bias=True)
   (dropout): Dropout(p=0.5, inplace=False)
 )ß
-```ß
+```
 
 ## RNN
 
