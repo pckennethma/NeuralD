@@ -33,46 +33,8 @@ CNN(
   )
   (fc): Linear(in_features=384, out_features=2, bias=True)
   (dropout): Dropout(p=0.5, inplace=False)
-)
-```
-
-## 2D-CNN
-
-```
-trace_encoder_32(
-  (c1): dcgan_conv(
-    (main): Sequential(
-      (0): Conv2d(7, 8, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
-      (1): BatchNorm2d(8, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-      (2): LeakyReLU(negative_slope=0.2, inplace=True)
-    )
-  )
-  (c2): dcgan_conv(
-    (main): Sequential(
-      (0): Conv2d(8, 16, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
-      (1): BatchNorm2d(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-      (2): LeakyReLU(negative_slope=0.2, inplace=True)
-    )
-  )
-  (c3): dcgan_conv(
-    (main): Sequential(
-      (0): Conv2d(16, 32, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
-      (1): BatchNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-      (2): LeakyReLU(negative_slope=0.2, inplace=True)
-    )
-  )
-  (c4): Sequential(
-    (0): Conv2d(32, 32, kernel_size=(4, 4), stride=(1, 1))
-    (1): BatchNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-    (2): Tanh()
-  )
-)
-enc params:  27784
-Sequential(
-  (0): Linear(in_features=32, out_features=2, bias=True)
-)
-fc params:  66
-```
+)ß
+```ß
 
 ## RNN
 
