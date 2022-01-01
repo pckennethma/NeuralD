@@ -8,6 +8,8 @@ Please build Docker images in distinguisher/Neural/Dockerfile before execute the
 
 Run python tester.py config/BuggySqRoot.py to test a particular solution.
 
+Please find ORAM protocol for black-box views at [OneDrive](https://hkustconnect-my.sharepoint.com/:f:/g/personal/pmaab_connect_ust_hk/EvwuiGw3-SBOiYxCCyoHdAsBoE5D2i0mL1bm2DKMnnmGXw?e=cOTA24).
+
 ## Debug
 
 Run python debugger.py temp/ to get a minimized buggy subsequence.
